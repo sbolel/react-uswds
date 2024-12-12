@@ -1,9 +1,10 @@
-import React, {
+import {
   useEffect,
   useState,
   useRef,
   forwardRef,
   useImperativeHandle,
+  JSX,
 } from 'react'
 import FocusTrap from 'focus-trap-react'
 

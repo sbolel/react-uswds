@@ -1,4 +1,4 @@
-import React from 'react'
+import { JSX } from 'react'
 import classnames from 'classnames'
 
 export const CardHeader = ({

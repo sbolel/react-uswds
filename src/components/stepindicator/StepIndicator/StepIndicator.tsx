@@ -1,4 +1,4 @@
-import React from 'react'
+import { Children, cloneElement, JSX } from 'react'
 import classnames from 'classnames'
 import { StepIndicatorStepProps } from '../StepIndicatorStep/StepIndicatorStep'
 import { HeadingLevel } from '../../../types/headingLevel'
@@ -83,8 +83,8 @@ export const StepIndicator = (
   const currentStepLabel = children[parseInt(`${currentStepIndex}`)].props.label
   const totalNumberOfSteps = children.length
 
-  const stepChildren = React.Children.map(children, (child) =>
-    React.cloneElement(child, { statusText: statusText })
+  const stepChildren = Children.map(children, (child) =>
+    cloneElement(child, { statusText: statusText })
   )
 
   return (

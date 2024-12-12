@@ -1,4 +1,4 @@
-import React, { ComponentType, useEffect } from 'react'
+import { ComponentType, useEffect, JSX } from 'react'
 
 import { deprecationWarning } from '../../deprecation'
 

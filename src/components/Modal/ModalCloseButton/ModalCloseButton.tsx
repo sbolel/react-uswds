@@ -1,4 +1,4 @@
-import React from 'react'
+import { JSX } from 'react'
 import { Icon } from '../../Icon/Icons'
 import { Button } from '../../Button/Button'
 

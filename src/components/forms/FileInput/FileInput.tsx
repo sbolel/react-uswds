@@ -1,9 +1,10 @@
-import React, {
+import {
   useState,
   forwardRef,
   useRef,
   useImperativeHandle,
   useEffect,
+  JSX,
 } from 'react'
 import classnames from 'classnames'
 

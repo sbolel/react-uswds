@@ -1,4 +1,3 @@
-import React from 'react'
 
 type NavMenuButtonProps = {
   label: React.ReactNode
@@ -21,3 +20,4 @@ export const NavMenuButton = ({
     </button>
   )
 }
+import { JSX } from 'react'

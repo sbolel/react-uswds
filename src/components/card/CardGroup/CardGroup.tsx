@@ -1,5 +1,5 @@
-import React from 'react'
 import classnames from 'classnames'
+import { JSX } from 'react'
 
 export const CardGroup = ({
   children,

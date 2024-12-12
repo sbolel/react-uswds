@@ -1,4 +1,4 @@
-import React from 'react'
+import { JSX } from 'react'
 import { render, screen, waitFor } from '@testing-library/react'
 
 import { ModalRef } from './Modal'

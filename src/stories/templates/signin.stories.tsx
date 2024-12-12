@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, { useState, Fragment, type ReactElement } from 'react'
 import {
   GridContainer,
   Grid,
@@ -117,7 +117,7 @@ const mockSubmit = (): void => {
 }
 
 export const SignIn = (): React.ReactElement => {
-  const [showPassword, setShowPassword] = React.useState(false)
+  const [showPassword, setShowPassword] = useState(false)
 
   return (
     <>

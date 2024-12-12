@@ -1,10 +1,11 @@
-import React, {
+import {
   useState,
   useEffect,
   useRef,
   FocusEvent,
   FormEvent,
   KeyboardEvent,
+  JSX,
 } from 'react'
 import classnames from 'classnames'
 

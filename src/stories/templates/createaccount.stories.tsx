@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, { useState, type ReactElement } from 'react'
 import {
   GovBanner,
   Header,
@@ -128,7 +128,7 @@ const mockSubmit = (): void => {
 }
 
 export const CreateAccount = (): React.ReactElement => {
-  const [showPassword, setShowPassword] = React.useState(false)
+  const [showPassword, setShowPassword] = useState(false)
 
   return (
     <>

@@ -1,6 +1,6 @@
-import React from 'react'
 import classnames from 'classnames'
 import { ValidationStatus } from '../../../types/validationStatus'
+import { JSX } from 'react'
 
 type SelectProps = {
   id: string
